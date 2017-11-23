@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="curled@localhost" uuid="9fdd6cec-9a38-414c-8caa-340ac3048574">
+    <data-source source="LOCAL" name="wieg16_api@localhost" uuid="a8a82862-ed93-4ed0-9b78-88b299866f25">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:8889/curled</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:8889/wieg16_api</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
