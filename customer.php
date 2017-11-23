@@ -1,7 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: marcus
- * Date: 2017-11-14
- * Time: 08:30
- */
+include 'config.php';
+//header("Content-type:application/json");
+$custId = $_GET['customer_id'];
+$query = "SELECT * FROM milletech_users WHERE id = $custId";
+
+
+$stmt = $pdo->prepare($query);
+$stmt->execute();
+
+$result = $stmt->FetchAll(PDO::FETCH_ASSOC);
+var_dump($result);
+//$myJSON = json_encode($result);
+
+//echo $myJSON;
