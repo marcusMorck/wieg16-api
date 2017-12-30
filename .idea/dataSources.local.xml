@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="wieg16_api@localhost" uuid="a8a82862-ed93-4ed0-9b78-88b299866f25">
+    <data-source name="db_laravel_wieg16@localhost" uuid="6951d6ba-80f1-49f1-b510-a809b218fac0">
       <database-info product="MySQL" version="5.6.35" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
-      <introspection-schemas>*:wieg16_api</introspection-schemas>
+      <introspection-schemas>*:db_laravel_wieg16</introspection-schemas>
     </data-source>
   </component>
 </project>
